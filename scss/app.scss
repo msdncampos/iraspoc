@@ -1,8 +1,10 @@
 @import 'scss/typography.scss';
 @import 'scss/forms.scss';
 @import 'scss/cta.scss';
+@import 'scss/sidebox.scss';
 
 @include typography;
 @include forms;
 @include cta;
+@include sidebox;
 
