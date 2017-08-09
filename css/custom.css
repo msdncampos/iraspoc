@@ -913,8 +913,8 @@ hr {
 }
 
 .login-background {
-    height: 649px;
-    background-image: url(../images/iras_bgimage.jpg);
+    height: 685px;
+    background-image: url(/-/media/IRAS-Images/iras_bgimage.jpg);
     background-size: cover;
     min-height: 500px;
     background-repeat: no-repeat;
