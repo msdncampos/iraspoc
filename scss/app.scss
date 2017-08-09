@@ -1,10 +1,10 @@
 @import 'scss/typography.scss';
-@import 'scss/forms.scss';
-@import 'scss/cta.scss';
 @import 'scss/sidebox.scss';
+@import 'scss/top-navigation.scss';
+@import 'scss/footer.scss';
 
 @include typography;
-@include forms;
-@include cta;
 @include sidebox;
+@include top-navigation;
+@include footer;
 

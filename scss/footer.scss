@@ -1,0 +1,16 @@
+@mixin footer{
+    ul.footer-links>li::before{
+        text-align: right;
+        content: '|';
+        margin-left: 0px;
+    }
+
+    ul.footer-links>li:first-child::before{
+        content: none;
+    }
+
+    .footer-links>li>a{
+        color: #337ab7;
+        text-decoration: none;
+    }
+}
