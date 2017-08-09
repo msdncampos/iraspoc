@@ -4,6 +4,8 @@
 @import 'scss/footer.scss';
 @import 'scss/login.scss';
 @import 'scss/tabber.scss';
+@import 'scss/structure.scss';
+
 
 @include typography;
 @include sidebox;
@@ -11,4 +13,5 @@
 @include footer;
 @include login;
 @include tabber;
+@include structure;
 

@@ -10,8 +10,8 @@
         }
     }
     .class-for-btn{
-        form.form-submit-border{
-            input.btn{
+
+            .btn{
                 text-transform: uppercase;
                 border: 1px solid #f7922c;
                 background-color: #f7922c !important;
@@ -21,7 +21,5 @@
                 border-radius: 20px;
                 width: 100%;
             }
-
-        }
     }
 }
