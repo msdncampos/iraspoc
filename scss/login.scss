@@ -1,0 +1,27 @@
+@mixin login{
+    .form-group{
+        label.control-label{
+            font-weight: 600;
+            color: #000;
+            font-size: 18px;
+        }
+        .form-control{
+            font-size: 18px;
+        }
+    }
+    .class-for-btn{
+        form.form-submit-border{
+            input.btn{
+                text-transform: uppercase;
+                border: 1px solid #f7922c;
+                background-color: #f7922c !important;
+                background-image: none;
+                color: #ffffff !important;
+                padding: 4px 20px 4px 20px;
+                border-radius: 20px;
+                width: 100%;
+            }
+
+        }
+    }
+}
