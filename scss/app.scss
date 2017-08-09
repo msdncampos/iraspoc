@@ -3,10 +3,12 @@
 @import 'scss/top-navigation.scss';
 @import 'scss/footer.scss';
 @import 'scss/login.scss';
+@import 'scss/tabber.scss';
 
 @include typography;
 @include sidebox;
 @include top-navigation;
 @include footer;
 @include login;
+@include tabber;
 

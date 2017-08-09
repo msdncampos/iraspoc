@@ -2,14 +2,16 @@
 
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url(../fonts/SourceSansPro-Regular.ttf.woff2);
-    font-weight: normal;
+    src: url('../Fonts/SourceSansProRegularttf.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'Source Sans Pro 2';
-    src: url(../fonts/SourceSansPro-Semibold.ttf.woff2);
+    src: url('../Fonts/SourceSansProRegularttf.woff') format('woff');
     font-weight: 700;
+    font-style: normal;
 }
 
 * {
@@ -21,12 +23,12 @@ body {
     font-family: 'Segoe UI';
 }
 
-h2 {
+h2, h3, .main-nav, .btm-nav, .login-header, .panel-box .header-link,
+.btn-orange, .btn-orange:focus, .btn-orange[disabled]:hover, .text-hyperlink{
     font-family: 'Source Sans Pro';
 }
 
 h3 {
-    font-family: 'Source Sans Pro';
     font-weight: bold;
 }
 
@@ -554,7 +556,6 @@ hr {
     margin-left: 0;
     margin-right: 0;
     border-bottom: 1px solid #4493df;
-    font-family: 'Source Sans Pro';
 }
 
 .nav-tabs {
@@ -592,7 +593,6 @@ hr {
     background-color: #3084cD;
     margin-left: 0;
     margin-right: 0;
-    font-family: 'Source Sans Pro';
     font-size: 16px;
 }
 
@@ -927,7 +927,6 @@ hr {
 
 .login-header {
     padding: 10px 10px 0px 10px;
-    font-family: 'Source Sans Pro';
     font-size: 30px;
     color: #0052A6;
     text-align: center;
@@ -973,7 +972,6 @@ hr {
     padding: 4px 20px 4px 20px;
     font-weight: 600;
     font-size: 16px;
-    font-family: 'Source Sans Pro';
 }
 
 .btn-orange:hover {
@@ -1013,7 +1011,6 @@ hr {
 }
 
 .panel-box .header-link {
-    font-family: 'Source Sans Pro';
     font-weight: lighter;
     font-size: 24px;
     color: #7df9ff;
@@ -1032,7 +1029,6 @@ hr {
 
 .text-hyperlink {
     font-weight: 600;
-    font-family: 'Source Sans Pro';
     text-decoration: none;
     font-size: 18px;
     color: #3084c6;
@@ -1482,12 +1478,12 @@ img#gsc-search-button {
 .block-header img {
     padding: 10px 8px 10px 0;
     height: 45px;
+    width: auto;
 }
 
 .block-header span {
     font-size: 1.1em;
     text-transform: uppercase;
-    vertical-align: middle;
     display: inline-block;
 }
 

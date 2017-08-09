@@ -1,0 +1,22 @@
+@mixin tabber{
+    .custom-tabs{
+        .tabs-title{
+            float: left;
+            width: 25%;
+            background-color: #fafafa;
+            font-family: "Source Sans Pro 2";
+            border-bottom: 4px solid #f8f8f8;
+            min-height: 95px;
+            a{
+                display: block;
+                padding: 1.25rem 1.5rem;
+                line-height: 1;
+                font-size: 1.5em;
+                font-family: "Source Sans Pro 2";
+                color: #333;
+            }
+        }
+
+    }
+
+}
