@@ -11,15 +11,18 @@
     }
     .class-for-btn{
 
-            .btn{
-                text-transform: uppercase;
-                border: 1px solid #f7922c;
-                background-color: #f7922c !important;
-                background-image: none;
-                color: #ffffff !important;
-                padding: 4px 20px 4px 20px;
-                border-radius: 20px;
-                width: 100%;
+            .button{
+                display: none;
             }
+        .btn{
+            text-transform: uppercase;
+            border: 1px solid #f7922c;
+            background-color: #f7922c !important;
+            background-image: none;
+            color: #ffffff !important;
+            padding: 4px 20px 4px 20px;
+            border-radius: 20px;
+            width: 100%;
+        }
     }
 }
