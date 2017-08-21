@@ -59,11 +59,15 @@
                 text-align: left;
                 position: relative;
 
-               .arrow-down{
-               right: 12px;
-               position: absolute;
-               transform: translateY(-50%);
-               top: 50%;
+                span{
+                float: left;
+                    }
+
+                    &:nth-child(2){
+                    position: absolute;
+                        transform: translateY(-50%);
+                    top: 50%;
+                    width: 84px;
                     }
 
 
