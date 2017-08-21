@@ -1,16 +1,56 @@
 @mixin mega-menu{
     .main-nav{
+
+                margin-left: 0;
+                margin-right: 0;
         .mega-menu{
             ul{
                 width: 980px;
                 float: none;
-                margin-left: auto;
-                margin-right: auto;
                 padding-left: 0;
                 margin-bottom: 0;
                 list-style: none;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+
+                img{
+                padding-left: 10px;
+                padding-right: 12px;
+                height: 30px;
+                }
+
+                li{
+                display: table-cell;
+                width: 1%;
+                float: none;
+                }
 
                 li>a {
+                border-radius: 0;
+                color: #fff;
+                border-left: 1px solid #4d9ae7;
+                padding: 18px 0 18px 5px;
+                font-size: initial;
+                height: 80px;
+                text-align: left;
+                position: relative;
+
+
+                background: #3084cd;
+                background-image: initial;
+                background-position-x: initial;
+                background-position-y: initial;
+                background-size: initial;
+                background-repeat-x: initial;
+                background-repeat-y: initial;
+                background-attachment: initial;
+                background-origin: initial;
+                background-clip: initial;
+                background-color: rgb(48, 132, 205);
+                padding: 0;
+                margin: 0;
+
                 border-radius: 0;
                 border-left: 1px solid #4d9ae7;
                 padding: 18px 0 18px 5px;
@@ -18,8 +58,23 @@
                 height: 80px;
                 text-align: left;
                 position: relative;
+
+               .arrow-down{
+               right: 12px;
+               position: absolute;
+               transform: translateY(-50%);
+               top: 50%;
+                    }
+
+
             }
         }
     }
 }
+     .arrow-down{
+               right: 12px;
+               position: absolute;
+               transform: translateY(-50%);
+               top: 50%;
+                    }
 }
