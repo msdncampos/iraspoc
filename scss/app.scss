@@ -5,6 +5,7 @@
 @import 'scss/login.scss';
 @import 'scss/tabber.scss';
 @import 'scss/structure.scss';
+@import 'scss/mega-menu.scss';
 
 
 @include typography;
@@ -14,4 +15,5 @@
 @include login;
 @include tabber;
 @include structure;
+@include mega-menu;
 
