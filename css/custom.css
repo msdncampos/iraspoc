@@ -332,7 +332,7 @@ h3 {
 }
 
 .section-wrapper {
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -459,7 +459,7 @@ h3 {
     .footer {
         padding-right: 0;
         padding-left: 0;
-        width: 940px;
+        width: 100%;
         float: none;
         margin-left: auto;
         margin-right: auto;
@@ -1850,3 +1850,145 @@ a[href$=".pdf"] {
 }
 
 #chatbot-button img {height: 75px;}
+
+/* quick help */
+.quickhelp {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -300px;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 50px;
+    transition: 0.5s;
+    -webkit-box-shadow: 11px 10px 28px -7px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 11px 10px 28px -7px rgba(0, 0, 0, 0.2);
+    box-shadow: 11px 10px 28px -7px rgba(0, 0, 0, 0.2);
+}
+
+.quickhelp .quickhelp-list a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #292929;
+    display: block;
+    transition: 0.3s;
+    float: left;
+    font-weight: normal;
+}
+
+.quickhelp .ico {
+    float: left;
+    width: 30%;
+}
+.quickhelp .txt-box {
+    float: left;
+    width: 70%;
+}
+.quickhelp .txt-box h3 {
+    margin: 0;
+}
+
+.quickhelp .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.quickhelp .closebtn:hover {
+    text-decoration: none;
+}
+.btn-quickhelp {
+    background-color: #323232;
+    transform: translateY(-50%);
+    top: 50%;
+    position: fixed;
+    -webkit-box-shadow: 11px 10px 28px -7px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 11px 10px 28px -7px rgba(0, 0, 0, 0.3);
+    box-shadow: 11px 10px 28px -7px rgba(0, 0, 0, 0.3);
+    padding: 10px 10px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+.btn-quickhelp img {
+    height: 30px;
+}
+.btn-quickhelp:hover {
+    background-color: #e10c17;
+}
+.quickhelp ul {
+        list-style: none;
+    display: table;
+    padding: 0;
+    margin: 0 10px 30px 10px;
+}
+.quickhelp ul li {
+    display: table;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    border-top: 1px solid #dbdbdb;
+}
+.quickhelp ul li:hover {background-color: #e9e9e9; color:#444; cursor: pointer;}
+.quickhelp-list h2 {
+    font-size: 18px;
+    padding: 14px 20px;
+    background-color: #f6f6f6;
+    margin: 0;
+    font-weight: bold;
+}
+
+.quickhelp ul li:hover h3 a {color: #444;}
+.quickhelp-list .txt-box.faq {
+    padding: 2px 10px;
+}
+.quickhelp-list .txt-box.faq:hover {
+    text-decoration: underline;
+}
+#quickhelpnav::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+#quickhelpnav::-webkit-scrollbar {
+    width: 10px;
+    background-color: #fff;
+}
+#quickhelpnav::-webkit-scrollbar-thumb {
+    background-color: #e9e9e9;
+    border: 2px solid #e9e9e9;
+}
+
+.quickhelp-list li .txt-box.faq a:hover {text-decoration: underline;}
+
+/*confirmation page*/
+.top_margin_25 {
+	margin-top: 25px;
+}
+
+.section-contact-table {
+    display: inline-table;
+    width: 100%;
+}
+
+.cellContact {
+    display: table-cell;
+    text-align: center;
+	vertical-align: middle;
+}
+
+.contact-cell {
+    display: table-cell;
+	width: 104%;
+}
+
+.contact-teal {
+    background-color: #eef8fe;
+	padding: 0px 5px 0px 5px;
+}
+
+.contact-table {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
