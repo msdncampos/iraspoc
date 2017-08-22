@@ -6,6 +6,8 @@
 @import 'scss/tabber.scss';
 @import 'scss/structure.scss';
 @import 'scss/offcanvas.scss';
+@import 'scss/mega-menu.scss';
+>>>>>>> origin/master
 
 
 @include typography;
@@ -16,3 +18,4 @@
 @include tabber;
 @include structure;
 @include offcanvas;
+@include mega-menu;
