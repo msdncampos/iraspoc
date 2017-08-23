@@ -1,4 +1,7 @@
 @mixin offcanvas{
+    a.btn-quickhelp{
+        left: 0%;
+    }
     .ads-offcanvas.quickhelp {
         background-color:#fff;
     }
