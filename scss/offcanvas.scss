@@ -1,27 +1,32 @@
-.ads-offcanvas.quickhelp {
-	background-color:#fff;
-}
-.quickhelp a.ads-close-button {
-	text-decoration: none;
-	color: #337ab7;
-	display: block;
-	text-align:right;
-	font-size: 32px;
-	top: -10px;
-	position: relative;
-}
-.quickhelp {
-    height: 100%;
-    width: 300px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: -300px;
-    background-color: #fff;
-    overflow-x: hidden;
-    padding-top: 50px;
-    transition: 0.5s;
-    -webkit-box-shadow: 11px 10px 28px -7px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 11px 10px 28px -7px rgba(0, 0, 0, 0.2);
-    box-shadow: 11px 10px 28px -7px rgba(0, 0, 0, 0.2);
+@mixin offcanvas{
+    a.btn-quickhelp{
+        left: 0%;
+    }
+    .ads-offcanvas.quickhelp {
+        background-color:#fff;
+    }
+    .quickhelp a.ads-close-button {
+        text-decoration: none;
+        color: #337ab7;
+        display: block;
+        text-align:right;
+        font-size: 32px;
+        top: -10px;
+        position: relative;
+    }
+    .quickhelp {
+        height: 100%;
+        width: 300px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: -300px;
+        background-color: #fff;
+        overflow-x: hidden;
+        padding-top: 50px;
+        transition: 0.5s;
+        -webkit-box-shadow: 11px 10px 28px -7px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 11px 10px 28px -7px rgba(0, 0, 0, 0.2);
+        box-shadow: 11px 10px 28px -7px rgba(0, 0, 0, 0.2);
+    }
 }

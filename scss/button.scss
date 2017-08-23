@@ -1,0 +1,9 @@
+@mixin button{
+    html input[type="button"],
+    input[type="reset"],
+    input[type="submit"]{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

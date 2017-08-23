@@ -1,0 +1,7 @@
+@mixin configureableImage{
+    .expanded-image{
+        img{
+            width: 100%;
+        }
+    }
+}
