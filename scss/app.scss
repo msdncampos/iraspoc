@@ -7,7 +7,9 @@
 @import 'scss/structure.scss';
 @import 'scss/offcanvas.scss';
 @import 'scss/mega-menu.scss';
-
+@import 'scss/configureableImage.scss';
+@import 'scss/progressbar.scss';
+@import 'scss/button.scss';
 
 @include typography;
 @include sidebox;
@@ -18,3 +20,6 @@
 @include structure;
 @include offcanvas;
 @include mega-menu;
+@include configureableImage;
+@include progressbar;
+@include button;
