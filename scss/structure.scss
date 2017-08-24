@@ -8,4 +8,9 @@
     .columns.no-padding{
         padding: 0px;
     }
+    .row.mainContent,
+    .row.pageHeader,
+    .row.progressBar,{
+        width: 100%;
+    }
 }

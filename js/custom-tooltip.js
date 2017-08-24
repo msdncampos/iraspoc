@@ -1,31 +1,28 @@
-/**(function ($){
-
-$.fn.customTooltip = function(){
-
-    this.hover(function(){
-        $(this).append('<span>marked up content</span> seems to work just fine')
-    });
-    return this;
-
-
-}( jQuery ));)
-**/
-
-jQuery(".pop").on('hover', function () {
-    jQuery(this).append('<span>marked up content</span> seems to work just fine')
+jQuery(document).ready(function() {
+    jQuery('[data-toggle="tooltip"]').tooltip();
 });
 
-//jQuery("[name=btnSaved]").on('click', function () {
+jQuery(function() {
+    jQuery('[data-toggle="popover"]').popover()
 
-(function ( $ ) {
-    $.fn.customTooltip = function(){
-		this.hover(function(){
-			$(this).append('<span>marked up content</span> seems to work just fine');
-		});
-		return this;
-	};
+});
+
+jQuery('.pop').each(function() {
+    var elem = jQuery(this);
+    elem.popover({
+        placement: 'right',
+        trigger: 'hover',
+        html: true,
+        container: elem
+    });
 
 
-})( jQuery );
-jQuery('.pop').customTooltip();
 
+});
+
+jQuery(window).on( "load", function() {
+    $("#menu_user_id").html("");
+    var UserId = jQuery('#user_id').val();
+    var TaxRefNo = jQuery('#user_taxref').val();
+    jQuery("#menu_user_id").append(UserId+"<br>Tax Ref No. "+TaxRefNo);
+    });
