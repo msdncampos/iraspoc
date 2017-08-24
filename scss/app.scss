@@ -10,6 +10,7 @@
 @import 'scss/configureableImage.scss';
 @import 'scss/progressbar.scss';
 @import 'scss/button.scss';
+@import 'scss/cta.scss';
 
 @include typography;
 @include sidebox;
@@ -23,3 +24,4 @@
 @include configureableImage;
 @include progressbar;
 @include button;
+@include cta;
