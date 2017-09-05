@@ -21,7 +21,7 @@ jQuery('.pop').each(function() {
 });
 
 jQuery(window).on( "load", function() {
-    $("#menu_user_id").html("");
+    jQuery("#menu_user_id").html("");
     var UserId = jQuery('#user_id').val();
     var TaxRefNo = jQuery('#user_taxref').val();
     jQuery("#menu_user_id").append(UserId+"<br>Tax Ref No. "+TaxRefNo);

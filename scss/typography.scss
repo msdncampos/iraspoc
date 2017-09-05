@@ -1,5 +1,46 @@
 @mixin typography{
 
+	@font-face {
+		font-family: 'Source Sans Pro';
+		src: url('../fonts/SourceSansProRegularttf.woff') format('woff');
+		font-weight: 700;
+		font-style: normal;
+	}
 
+	@font-face {
+		font-family: 'Source Sans Pro 2';
+		src: url('../fonts/SourceSansProSemiboldttf.woff') format('woff');
+		font-weight: 700;
+		font-style: normal;
+	}
 
+	* {
+		font-size: 100.01%;
+	}
+
+	body {
+		padding-bottom: 20px;
+		font-family: 'Segoe UI';
+	}
+
+	h2, h3, .main-nav, .btm-nav, .login-header, .panel-box .header-link,
+	.btn-orange, .btn-orange:focus, .btn-orange[disabled]:hover, .text-hyperlink{
+		font-family: 'Source Sans Pro';
+	}
+
+	h3 {
+		font-weight: bold;
+	}
+
+	.text-bold {
+		font-weight: 600;
+	}
+
+	.left {
+		float: left;
+	}
+
+	.right {
+		float: right;
+	}
 }

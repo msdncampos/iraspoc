@@ -1,9 +1,9 @@
 @mixin structure{
     .top-padding{
-        padding-top: 20px;
+        padding-top: 20px!important;
     }
     .bottom-padding{
-        padding-bottom: 20px;
+        padding-bottom: 20px!important;
     }
     .columns.no-padding{
         padding: 0px;
